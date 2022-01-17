@@ -1,4 +1,4 @@
-class easyHttp {
+class EasyHttp {
     // method for making get request 
     async get(apiEndpint) {
         let response = await fetch(apiEndpint);
@@ -57,4 +57,4 @@ class easyHttp {
         }
     }
 }
-export default easyHttp;
+export default EasyHttp;
